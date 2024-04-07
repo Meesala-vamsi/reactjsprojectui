@@ -1,0 +1,29 @@
+*{
+  font-family: "Roboto";
+}
+
+.underline{
+  position: relative;
+}
+
+.underline:after{
+  content: '';
+  position: absolute;
+  left: 38%;
+  bottom: 0;
+  border: 2px solid rgb(9, 97, 129);
+  width: 24%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width:768px){
+  .underline:after{
+    content: '';
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    border: 2px solid rgb(9, 97, 129);
+    width: 15%;
+    border-radius: 10px;
+  }
+}
